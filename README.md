@@ -8,7 +8,7 @@ Deployed automatically to **AWS S3** using **GitHub Actions CI/CD**.
 
 ## 🌐 Live Demo
 
-🔗 [View Live Portfolio](http://your-s3-website-link-here)
+🔗 [View Live Portfolio](http://ajay-portfolio-vite.s3-website-us-east-1.amazonaws.com)
 
 ---
 
@@ -94,23 +94,12 @@ S3_BUCKET
 
 If you'd like to collaborate or discuss opportunities:
 
-LinkedIn: https://linkedin.com/in/your-profile
+LinkedIn: https://www.linkedin.com/in/ajayraj004/
 
-Email: your-email@example.com
+Email: ajayrajospf@gmail.com
 
 ⭐ If you like this project
 
 Give it a ⭐ on GitHub!
 
-
----
-
-# ✅ After adding README
-
-Run:
-
-```bash
-git add README.md
-git commit -m "Add professional README"
-git push
 
