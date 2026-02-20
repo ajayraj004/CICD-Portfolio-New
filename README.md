@@ -1,73 +1,116 @@
-# React + TypeScript + Vite
+# 🚀 Ajay Raj – Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern developer portfolio built using **React + TypeScript + Vite + Tailwind CSS**.
 
-Currently, two official plugins are available:
+Deployed automatically to **AWS S3** using **GitHub Actions CI/CD**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 [View Live Portfolio](http://your-s3-website-link-here)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Tech Stack
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ⚛ React
+- 🟦 TypeScript
+- ⚡ Vite
+- 🎨 Tailwind CSS
+- ☁ AWS S3 (Static Hosting)
+- 🔁 GitHub Actions (CI/CD)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Project Structure
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+├── public/
+├── src/
+│ ├── components/
+│ ├── sections/
+│ ├── hooks/
+│ ├── lib/
+│ └── App.tsx
+├── index.html
+├── package.json
+├── vite.config.ts
+└── .github/workflows/deploy.yml
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+---
+
+## 🚀 Local Development
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ajayraj004/CICD-Portfolio-New.git
+cd your-repo-name
+
+Install dependencies:
+
+npm install
+
+Start development server:
+
+npm run dev
+🏗 Build for Production
+npm run build
+
+The production files will be generated inside the dist/ folder.
+
+🔁 CI/CD Deployment
+
+This project uses GitHub Actions to automatically:
+
+Install dependencies
+
+Build the Vite project
+
+Deploy dist/ folder to AWS S3
+
+Triggered automatically on:
+
+git push origin main
+☁ AWS Setup
+
+S3 Static Website Hosting enabled
+
+IAM user with limited S3 permissions
+
+GitHub repository secrets configured:
+
+AWS_ACCESS_KEY_ID
+
+AWS_SECRET_ACCESS_KEY
+
+AWS_REGION
+
+S3_BUCKET
+
+📬 Contact
+
+If you'd like to collaborate or discuss opportunities:
+
+LinkedIn: https://linkedin.com/in/your-profile
+
+Email: your-email@example.com
+
+⭐ If you like this project
+
+Give it a ⭐ on GitHub!
+
+
+---
+
+# ✅ After adding README
+
+Run:
+
+```bash
+git add README.md
+git commit -m "Add professional README"
+git push
+

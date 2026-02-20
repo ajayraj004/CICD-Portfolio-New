@@ -40,7 +40,7 @@ const Certifications = () => {
         'Proficient in developing, deploying, and debugging cloud-based applications using AWS services and best practices.',
     },
     {
-      name: 'AWS SysOps Administrator',
+      name: 'AWS Cloud Practitioner',
       provider: 'Amazon Web Services',
       image: '/cert-sysops.jpg',
       date: '2023',
@@ -49,7 +49,7 @@ const Certifications = () => {
         'Skilled in deploying, managing, and operating workloads on AWS with focus on security and compliance.',
     },
     {
-      name: 'Terraform Associate',
+      name: 'AWS AI Practitioner',
       provider: 'HashiCorp',
       image: '/cert-terraform.jpg',
       date: '2024',

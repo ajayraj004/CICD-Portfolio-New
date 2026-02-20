@@ -27,7 +27,7 @@ const Projects = () => {
         'A comprehensive Terraform-based infrastructure-as-code solution for deploying scalable multi-tier applications on AWS. Features auto-scaling groups, load balancers, RDS databases, and VPC networking with security best practices.',
       image: '/project-cloud-infra.jpg',
       tags: ['Terraform', 'AWS', 'VPC', 'EC2', 'RDS', 'Auto Scaling'],
-      githubUrl: 'https://github.com/ajayraj/cloud-infra-automation',
+      githubUrl: 'https://github.com/ajayraj004/CICD-Portfolio-New',
       liveUrl: '#',
       stars: 45,
       forks: 12,
@@ -38,7 +38,7 @@ const Projects = () => {
         'End-to-end Jenkins pipeline framework with Docker containerization and Kubernetes deployment. Includes automated testing, security scanning, and blue-green deployment strategies for zero-downtime releases.',
       image: '/project-cicd.jpg',
       tags: ['Jenkins', 'Docker', 'Kubernetes', 'GitOps', 'Helm'],
-      githubUrl: 'https://github.com/ajayraj/cicd-pipeline',
+      githubUrl: 'https://github.com/ajayraj004/CICD-Portfolio-New',
       stars: 38,
       forks: 8,
     },
@@ -48,7 +48,7 @@ const Projects = () => {
         'Production-ready microservices architecture deployed on EKS with service mesh, monitoring stack (Prometheus/Grafana), and centralized logging. Implements circuit breakers, rate limiting, and distributed tracing.',
       image: '/project-k8s.jpg',
       tags: ['Kubernetes', 'EKS', 'Istio', 'Prometheus', 'Grafana', 'Microservices'],
-      githubUrl: 'https://github.com/ajayraj/k8s-microservices',
+      githubUrl: 'https://github.com/ajayraj004/CICD-Portfolio-New',
       liveUrl: '#',
       stars: 52,
       forks: 15,
@@ -205,7 +205,7 @@ const Projects = () => {
         {/* View More CTA */}
         <div className="mt-16 text-center">
           <a
-            href="https://github.com/ajayraj"
+            href="https://github.com/ajayraj004"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-8 py-4 bg-white/5 hover:bg-purple/20 border border-white/20 hover:border-purple rounded-full text-white font-medium transition-all duration-300 group"

@@ -93,7 +93,7 @@ const About = () => {
     },
     {
       icon: Briefcase,
-      value: '3+',
+      value: '1+',
       label: 'Years Experience',
       color: 'from-blue-500 to-blue-700',
     },
