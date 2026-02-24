@@ -96,14 +96,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'ajayraj@example.com',
-      href: 'mailto:ajayraj@example.com',
+      value: 'ajayraj@gmail.com',
+      href: 'mailto:ajayraj@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 7535804268',
+      href: 'tel:+75358042680',
     },
     {
       icon: MapPin,
