@@ -114,9 +114,9 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/ajayraj', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/ajayraj', label: 'LinkedIn' },
-    { icon: Twitter, href: 'https://twitter.com/ajayraj', label: 'Twitter' },
+    { icon: Github, href: 'https://github.com/ajayraj004', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/ajayraj004/', label: 'LinkedIn' },
+    { icon: Twitter, href: 'https://x.com/AjayRaj17793923', label: 'Twitter' },
   ];
 
   return (

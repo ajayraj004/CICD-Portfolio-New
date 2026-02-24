@@ -29,10 +29,10 @@ const Footer = () => {
     {
       title: 'Connect',
       links: [
-        { name: 'GitHub', href: 'https://github.com/ajayraj' },
-        { name: 'LinkedIn', href: 'https://linkedin.com/in/ajayraj' },
-        { name: 'Twitter', href: 'https://twitter.com/ajayraj' },
-        { name: 'Email', href: 'mailto:ajayraj@example.com' },
+        { name: 'GitHub', href: 'https://github.com/ajayraj004' },
+        { name: 'LinkedIn', href: 'https://www.linkedin.com/in/ajayraj004/' },
+        { name: 'Twitter', href: 'https://x.com/AjayRaj17793923' },
+        { name: 'Email', href: 'mailto:ajayraj@gmail.com' },
       ],
     },
   ];
