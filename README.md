@@ -8,7 +8,7 @@ Deployed automatically to **AWS S3** using **GitHub Actions CI/CD**.
 
 ## 🌐 Live Demo
 
-🔗 [View Live Portfolio](http://ajay-portfolio-vite.s3-website-us-east-1.amazonaws.com)
+🔗 [View Live Portfolio](http://ajay-portfolio-2026-01.s3-website-us-east-1.amazonaws.com)
 
 ---
 

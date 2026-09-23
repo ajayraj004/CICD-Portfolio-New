@@ -31,4 +31,4 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}
 
       - name: Deploy dist to S3
-        run: aws s3 sync dist s3://${{ secrets.S3_BUCKET }} --delete
+        run: aws s3 sync dist s3://${{ secrets.ajay-portfolio-2026-01 }} --delete
